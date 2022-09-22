@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
 var box = Box<Int>()
     box.add(4)
     box.get()
@@ -38,3 +38,10 @@ class Consumer<in S>{
 /*GENERICS
 
  */
+ */
+fun main() {
+    println("Ramiz" + returnSth(" Babayev"))
+}
+fun<T>returnSth(a:T):T{
+    return a
+}
